@@ -54,7 +54,7 @@
     "period": "Late Jurassic",
     "type": "Dinosaur",
     "location": "North America",
-    "image": "Images/brachiosaurus.webp",
+    "image": "images/brachiosaurus.webp",
     "description": "A gigantic long-necked dinosaur that used its height to reach vegetation.",
     "products": []
   },
@@ -64,7 +64,7 @@
     "period": "Cretaceous",
     "type": "Dinosaur",
     "location": "Central Asia",
-    "image": "Images/velociraptor.webp",
+    "image": "images/velociraptor.webp",
     "description": "A very black dinosaur",
     "products": [
 
