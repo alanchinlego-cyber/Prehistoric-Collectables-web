@@ -1,0 +1,923 @@
+[
+  {
+    "name": "Tyrannosaurus rex",
+    "species": "Tyrannosaurus rex",
+    "brand": "Hammond Collection",
+    "price": "$275.00",
+    "scale": "61.cm",
+    "year": 2025,
+    "image": "images/products/hammond-trex.WebP",
+    "description": "Tyrannosaurus rex collectible from the Hammond Collection.",
+    "stores": [
+      {
+        "store": "Ebay",
+        "url": "https://ebay.us/ujiDlQ"
+      },
+      {
+        "store": "eBay",
+        "url": "YOUR_EBAY_LINK"
+      }
+    ]
+  },
+
+  {
+    "name": "Tyrannosaurus rex Cameron",
+    "species": "Tyrannosaurus rex",
+    "brand": "PNSO",
+    "price": "$66.74",
+    "scale": "36.68cm",
+    "year": 2026,
+    "image": "images/products/pnso-trex.WebP",
+    "description": "More accurate articulated version of the t.rex made by PNSO.",
+    "stores": [
+      {
+        "store": "eBay",
+        "url": "https://ebay.us/CccM3I"
+      }
+    ]
+  },
+    {
+    "name": "Spinosaurus Hammond Collection",
+    "species": "Spinosaurus",
+    "brand": "Hammond Collection",
+    "price": "$164.99",
+    "scale": "36.68cm",
+    "year": 2026,
+    "image": "images/products/hammond-spinosaurus.WebP",
+    "description": "The spinosaurus from the jurassic park 3 movie made by the Hammond Collection.",
+    "stores": [
+      {
+        "store": "eBay",
+        "url": "https://ebay.us/Sh2bpc"
+      }
+    ]
+  },
+     {
+    "name": "Spinosaurus Supplanter War God",
+    "species": "Spinosaurus",
+    "brand": "Nanmu Studio",
+    "price": "$100",
+    "scale": "42cm",
+    "year": 2026,
+    "image": "images/products/nanmu-spinosaurus.WebP",
+    "description": "Very detailed Spinosaurus articulated figure made by Nanmu Studios.",
+    "stores": [
+      {
+        "store": "eBay",
+        "url": "https://ebay.us/KDAXEv"
+      }
+    ]
+  },
+  {
+    "name": "Spinosaurus Supplanter Realm Warden",
+    "species": "Spinosaurus",
+    "brand": "Nanmu Studio",
+    "price": "$195.00",
+    "scale": "42cm",
+    "year": 2026,
+    "image": "images/products/nanmu-spinosaurus_warden.WebP",
+    "description": "green version of the original Spinosaurus WAR GOD articulated figure made by Nanmu Studios.",
+    "stores": [
+      {
+        "store": "eBay",
+        "url": "https://ebay.us/uL0GBT"
+      }
+    ]
+  },
+    {
+    "name": "Spinosaurus Essien",
+    "species": "Spinosaurus",
+    "brand": "PNSO",
+    "price": "$69.98",
+    "scale": "23cm",
+    "year": 2022,
+    "image": "images/products/pnso-spinosaurus-essien.WebP",
+    "description": "Pnso spinosaurus Essien detailed mini-statue",
+    "stores": [
+      {
+        "store": "eBay",
+        "url": "https://ebay.us/McEclR"
+      }
+    ]
+  },
+   {
+    "name": "Spinosaurus Aymen",
+    "species": "Spinosaurus",
+    "brand": "PNSO",
+    "price": "$131.16",
+    "scale": "32.5cm",
+    "year": 2023,
+    "image": "images/products/pnso-spinosaurus-aymen.WebP",
+    "description": "Pnso spinosaurus Aymen detailed mini-statue",
+    "stores": [
+      {
+        "store": "eBay",
+        "url": "https://ebay.us/4M3jBK"
+      }
+    ]
+  },
+
+   {
+    "name": "Spinosaurus Papo",
+    "species": "Spinosaurus",
+    "brand": "Papo",
+    "price": "$119.99",
+    "scale": "40.3cm",
+    "year": 2019,
+    "image": "images/products/papo-spinosaurus.WebP",
+    "description": "Papo updated limited edition spinosaurus sculpture",
+    "stores": [
+      {
+        "store": "eBay",
+        "url": "https://ebay.us/mzyjaC"
+      }
+    ]
+  },
+     {
+    "name": "Spinosaurus Aegyptiacus",
+    "species": "Spinosaurus",
+    "brand": "W-dragon",
+    "price": "$336.95",
+    "scale": "48cm",
+    "year": 2026,
+    "image": "images/products/wdragon-spinosaurus.WebP",
+    "description": "Spinosaurus Aegypticus very well detailed sculpture",
+    "stores": [
+      {
+        "store": "eBay",
+        "url": "https://ebay.us/2blzqT"
+      }
+    ]
+  },
+       {
+    "name": "Spinosaurus Moviedictus",
+    "species": "Spinosaurus",
+    "brand": "W-dragon",
+    "price": "$492.67",
+    "scale": "44cm",
+    "year": 2022,
+    "image": "images/products/wdragon-spinosaurus2.WebP",
+    "description": "Movie accurate spinosaurus detailed sculpture made by w-dragon",
+    "stores": [
+      {
+        "store": "eBay",
+        "url": "https://ebay.us/DpCi7g"
+      }
+    ]
+  },
+   {
+    "name": "Spinosaurus Ramses",
+    "species": "Spinosaurus",
+    "brand": "Mesozoic Life",
+    "price": "$179.99",
+    "scale": "44.4cm",
+    "year": 2023,
+    "image": "images/products/Mesozoic-spinosaurus.WebP",
+    "description": "Spinosaurus ramses gray detailed sculpture",
+    "stores": [
+      {
+        "store": "eBay",
+        "url": "https://ebay.us/NDhKDR"
+      }
+    ]
+  },
+   {
+    "name": "Spinosaurus Mattel",
+    "species": "Spinosaurus",
+    "brand": "Mattel",
+    "price": "$60",
+    "scale": "56cm",
+    "year": 2024,
+    "image": "images/products/mattel-spinosaurus.WebP",
+    "description": "Mattel spinosaurus heart attack figure",
+    "stores": [
+      {
+        "store": "eBay",
+        "url": "https://ebay.us/XgwuNb"
+      }
+    ]
+  },
+  {
+    "name": "T.rex Alpha Ethernal Empress of Origins",
+    "species": "Tyrannosaurus rex",
+    "brand": "Nanmu Studio",
+    "price": "$167.66",
+    "scale": "43cm",
+    "year": 2026,
+    "image": "images/products/nanmu-trex.WebP",
+    "description": "Jurassic park female articulated T.rex",
+    "stores": [
+      {
+        "store": "eBay",
+        "url": "https://ebay.us/DRHZ6t"
+      }
+    ]
+  },
+    {
+    "name": "T.rex Sovereign of the Oath",
+    "species": "Tyrannosaurus rex",
+    "brand": "Nanmu Studio",
+    "price": "$310.19",
+    "scale": "43cm",
+    "year": 2026,
+    "image": "images/products/nanmu-trexbuck.WebP",
+    "description": "Articulated jurassic park 2 Buck T.rex",
+    "stores": [
+      {
+        "store": "eBay",
+        "url": "https://ebay.us/7pWEO0"
+      }
+    ]
+  },
+  {
+    "name": "T.rex Alpha Statue",
+    "species": "Tyrannosaurus rex",
+    "brand": "Nanmu Studio",
+    "price": "$384.03",
+    "scale": "50cm",
+    "year": 2025,
+    "image": "images/products/nanmu-trexstatue.WebP",
+    "description": "Statue of the t.rex escaping the fence scene",
+    "stores": [
+      {
+        "store": "eBay",
+        "url": "https://ebay.us/RtFgkn"
+      }
+    ]
+  },
+    {
+    "name": "T.rex Bull",
+    "species": "Tyrannosaurus rex",
+    "brand": "W-dragon",
+    "price": "$511.19",
+    "scale": "39cm",
+    "year": 2025,
+    "image": "images/products/wdragon-trexbuckstatue.WebP",
+    "description": "T.rex Bull walking on a rock Statue",
+    "stores": [
+      {
+        "store": "eBay",
+        "url": "https://ebay.us/RfndOA"
+      }
+    ]
+  },
+    {
+    "name": "T.rex Retro",
+    "species": "Tyrannosaurus rex",
+    "brand": "W-dragon",
+    "price": "$159.54",
+    "scale": "35cm",
+    "year": 2022,
+    "image": "images/products/wdragon-trexretro.WebP",
+    "description": "Retro statue of a t.rex",
+    "stores": [
+      {
+        "store": "eBay",
+        "url": "https://ebay.us/2pnwYY"
+      }
+    ]
+  },
+    {
+    "name": "T.rex Classic",
+    "species": "Tyrannosaurus rex",
+    "brand": "W-dragon",
+    "price": "$204.45",
+    "scale": "50cm",
+    "year": 2022,
+    "image": "images/products/wdragon-trexclassic.WebP",
+    "description": "The classic green T.rex statue",
+    "stores": [
+      {
+        "store": "eBay",
+        "url": "https://ebay.us/qKxLLa"
+      }
+    ]
+  },
+      {
+    "name": "T.rex Bust",
+    "species": "Tyrannosaurus rex",
+    "brand": "DAMTOYS",
+    "price": "$255.96",
+    "scale": "20cm",
+    "year": 2020,
+    "image": "images/products/damtoys-trex.WebP",
+    "description": "T.rex head statue",
+    "stores": [
+      {
+        "store": "eBay",
+        "url": "https://ebay.us/BwKPZI"
+      }
+    ]
+  },
+      {
+    "name": "T.rex PVC",
+    "species": "Tyrannosaurus rex",
+    "brand": "W-dragon",
+    "price": "$491.92",
+    "scale": "38cm",
+    "year": 2026,
+    "image": "images/products/wdragon-trex2.WebP",
+    "description": "Realistic T.rex detailed statue",
+    "stores": [
+      {
+        "store": "eBay",
+        "url": "https://ebay.us/n19oHA"
+      }
+    ]
+  },
+      {
+    "name": "T.rex Cameron Statue",
+    "species": "Tyrannosaurus rex",
+    "brand": "PNSO",
+    "price": "$109.95",
+    "scale": "35cm",
+    "year": 2023,
+    "image": "images/products/pnso-trex1.WebP",
+    "description": "Non articulated old version of the Cameron T.rex",
+    "stores": [
+      {
+        "store": "eBay",
+        "url": "https://ebay.us/n19oHA"
+      }
+    ]
+  },
+  {
+  "name": "REBOR Tyrannosaurus Rex Kiss Island",
+  "species": "Tyrannosaurus rex",
+  "brand": "REBOR",
+  "price": "$102.66",
+  "scale": "1:35",
+  "year": null,
+  "image": "images/products/rebor-trex.WebP",
+  "description": "Realistic 1:35 scale Tyrannosaurus rex figure from REBOR's Kiss Island collection.",
+  "stores": [
+    {
+      "store":"eBay",
+      "url": "https://ebay.us/a8qZ83"
+    }
+  ]
+},
+{
+  "name": "Haolonggood 1/35 Lipped Tyrannosaurus Rex",
+  "species": "Tyrannosaurus rex",
+  "brand": "Haolonggood",
+  "price": "$100.22",
+  "scale": "1:35",
+  "year": null,
+  "image": "images/products/haolonggood-trex.WebP",
+  "description": "Realistic 1:35 scale Tyrannosaurus rex figure by Haolonggood.",
+  "stores": [
+    {
+      "store":"eBay",
+      "url": "https://ebay.us/uhbzik"
+    }
+    
+  ]
+},
+{
+  "name": "HAOLONGGOOD Triceratops",
+  "species": "Triceratops",
+  "brand": "HAOLONGGOOD",
+  "price": "$73.60",
+  "scale": "1:35",
+  "year": null,
+  "image": "images/products/haolonggood-triceratops.WebP",
+  "description": "Realistic 1:35 scale Triceratops figure made from PVC by HAOLONGGOOD.",
+  "stores": [
+    {
+      "store":"eBay",
+      "url": "https://ebay.us/7SMPeS"
+    }
+    
+  ]
+},
+{
+  "name": "DINO DREAM Triceratops Figure",
+  "species": "Triceratops",
+  "brand": "DINO DREAM",
+  "price": "$285.32",
+  "scale": "1:30",
+  "year": null,
+  "image": "images/products/dino-dream-triceratops.WebP",
+  "description": "Realistic 1:30 scale Triceratops figure made from resin, including the original box and base.",
+  "stores": [
+        {
+      "store":"eBay",
+      "url": "https://ebay.us/8mxH59"
+    }
+  ]
+},
+{
+  "name": "Nanmu Studio 1:35 Jurassic Dying Triceratops",
+  "species": "Triceratops",
+  "brand": "Nanmu Studio",
+  "price": "$138.00",
+  "scale": "1:35",
+  "year": null,
+  "image": "images/products/nanmu-dying-triceratops.WebP",
+  "description": "Detailed 1:35 scale Jurassic Dying Triceratops figure by Nanmu Studio.",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/TNQhsV"
+    }
+  ]
+},
+{
+  "name": "1:20 Triceratops Brass Statue",
+  "species": "Triceratops",
+  "brand": "Unbranded",
+  "price": "$320.39",
+  "scale": "1:20",
+  "year": null,
+  "image": "images/products/triceratops-brass-statue.WebP",
+  "description": "Limited 1:20 scale Triceratops statue made from brass, with detailed scales, horns and claws.",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/kZPgOZ"
+    }
+  ]
+},
+{
+  "name": "HAOLONGGOOD 1:35 Triceratops",
+  "species": "Triceratops",
+  "brand": "HAOLONGGOOD",
+  "price": "$73.60",
+  "scale": "1:35",
+  "year": null,
+  "image": "images/products/haolonggood-triceratops2.WebP",
+  "description": "Realistic 1:35 scale Triceratops figure made from PVC by HAOLONGGOOD.",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/V4T34S"
+    }
+  ]
+},
+       {
+  "name": "PNSO Triceratops Dinosaur Statue GK Model",
+  "species": "Triceratops",
+  "brand": "PNSO",
+  "price": "$76.85",
+  "scale": null,
+  "year": null,
+  "image": "images/products/pnso-triceratops-gk.WebP",
+  "description": "PNSO Triceratops dinosaur statue and collectible display model.",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/RWTrQP"
+    }
+  ]
+},
+{
+  "name": "PNSO 1/35 Triceratops Doyle",
+  "species": "Triceratops",
+  "brand": "PNSO",
+  "price": "$49.99",
+  "scale": "1:35",
+  "year": null,
+  "image": "images/products/pnso-triceratops-doyle.WebP",
+  "description": "Detailed 1:35 scale Triceratops Doyle model from PNSO's Dinosaur Museums Series.",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/qohLjZ"
+    }
+  ]
+},
+{
+  "name": "REBOR 1:35 Triceratops horridus \"Trident\" King",
+  "species": "Triceratops horridus",
+  "brand": "REBOR",
+  "price": "$88.17",
+  "scale": "1:35",
+  "year": null,
+  "image": "images/products/rebor-trident-triceratops.WebP",
+  "description": "Detailed 1:35 scale Triceratops horridus \"Trident\" King collectible by REBOR.",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/HWg4rx"
+    }
+  ]
+},
+{
+  "name": "PNSO Triceratops Figure",
+  "species": "Triceratops",
+  "brand": "PNSO",
+  "price": "$99.99",
+  "scale": null,
+  "year": 2021,
+  "image": "images/products/pnso-triceratops3.WebP",
+  "description": "Scientific and realistic PNSO Triceratops collectible figure.",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/ouTUeO"
+    }
+  ]
+},
+{
+  "name": "Mattel Hammond Collection Triceratops",
+  "species": "Triceratops",
+  "brand": "Hammond Collection",
+  "price": "$100.00",
+  "scale": "1:35",
+  "year": null,
+  "image": "images/products/mattel-hammond-triceratops.WebP",
+  "description": "Detailed 1:35 scale Triceratops action figure from Mattel's Hammond Collection.",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/9dumQx"
+    }
+  ]
+},
+{
+  "name": "Mattel Jurassic World Hammond Collection Triceratops",
+  "species": "Triceratops",
+  "brand": "Mattel",
+  "price": "$67.93",
+  "scale": null,
+  "year": null,
+  "image": "images/products/mattel-hammond-triceratops-jdj07.WebP",
+  "description": "Detailed and articulated Triceratops figure from Mattel's Jurassic World Hammond Collection.",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/qnj1zI"
+    }
+  ]
+},
+{
+  "name": "Beasts of the Mesozoic 1:18 Subadult Triceratops",
+  "species": "Triceratops",
+  "brand": "Beasts of the Mesozoic",
+  "price": "$345.00",
+  "scale": "1:18",
+  "year": null,
+  "image": "images/products/beasts-mesozoic-subadult-triceratops.WebP",
+  "description": "Detailed 1:18 scale Subadult Triceratops figure from Beasts of the Mesozoic's Ceratopsian Series.",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/pa29jj"
+    }
+  ]
+},
+{
+  "name": "Beasts of the Mesozoic Adult Triceratops horridus Cyberzoic",
+  "species": "Triceratops",
+  "brand": "Creative Beast Studios",
+  "price": "$149.95",
+  "scale": null,
+  "year": null,
+  "image": "images/products/beasts-mesozoic-adult-triceratops.WebP",
+  "description": "Detailed Adult Triceratops horridus collectible from the Beasts of the Mesozoic Cyberzoic series.",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/b87B5s"
+    }
+  ]
+},
+{
+  "name": "Mattel Jurassic World Hammond Collection Stegosaurus",
+  "species": "Stegosaurus",
+  "brand": "Hammond Collection",
+  "price": "$75.00",
+  "scale": null,
+  "year": null,
+  "image": "images/products/mattel-hammond-stegosaurus.WebP",
+  "description": "Detailed Stegosaurus figure from Mattel's Jurassic World Hammond Collection.",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/Abc3Rn"
+    }
+  ]
+},
+{
+  "name": "Beasts of the Mesozoic 1/18 Stegosaurus stenops",
+  "species": "Stegosaurus",
+  "brand": "Beasts of the Mesozoic",
+  "price": "$411.51",
+  "scale": "1:18",
+  "year": null,
+  "image": "images/products/beasts-mesozoic-stegosaurus.WebP",
+  "description": "Detailed 1:18 scale Stegosaurus stenops figure from Beasts of the Mesozoic.",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/cs2iHD"
+    }
+  ]
+},
+{
+  "name": "PNSO Stegosaurus Model",
+  "species": "Stegosaurus",
+  "brand": "PNSO",
+  "price": "$117.83",
+  "scale": "1:35",
+  "year": null,
+  "image": "images/products/pnso-stegosaurus.WebP",
+  "description": "Detailed 1:35 scale Stegosaurus model made from PVC.",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/hXWBe8"
+    }
+  ]
+},
+{
+  "name": "REBOR The Hatchling Stegosaurus Clover",
+  "species": "Stegosaurus",
+  "brand": "REBOR",
+  "price": "$175.00",
+  "scale": null,
+  "year": null,
+  "image": "images/products/rebor-hatchling-stegosaurus.WebP",
+  "description": "Detailed resin model of The Hatchling Stegosaurus Clover by REBOR.",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/6BeFrT"
+    }
+  ]
+},
+{
+  "name": "HAOLONGGOOD Stegosaurus Dinosaur Statue",
+  "species": "Stegosaurus",
+  "brand": "HAOLONGGOOD",
+  "price": "$69.97",
+  "scale": null,
+  "year": null,
+  "image": "images/products/haolonggood-stegosaurus-2.WebP",
+  "description": "Detailed Stegosaurus display figurine made from PVC by HAOLONGGOOD.",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/F0zlxz"
+    }
+  ]
+},
+{
+  "name": "DINO DREAM 1:30 Stegosaurus Baby & Cage",
+  "species": "Stegosaurus",
+  "brand": "DINO DREAM",
+  "price": "$220.80",
+  "scale": "1:30",
+  "year": null,
+  "image": "images/products/dino-dream-stegosaurus-baby.WebP",
+  "description": "Detailed 1:30 scale Stegosaurus statue with a baby and cage by DINO DREAM.",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/6jPHMO"
+    }
+  ]
+},
+{
+  "name": "HAOLONGGOOD Stegosaurus 1/20th Jurassic World",
+  "species": "Stegosaurus",
+  "brand": "HAOLONGGOOD",
+  "price": "$417.51",
+  "scale": "1:20",
+  "year": null,
+  "image": "images/products/haolonggood-stegosaurus.WebP",
+  "description": "Detailed 1:20 scale Stegosaurus statue by HAOLONGGOOD with a realistic display base.",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/7duwOI"
+    }
+  ]
+},
+{
+  "name": "Mattel Jurassic Park Hammond Collection Velociraptor HFG56",
+  "species": "Velociraptor",
+  "brand": "Hammond Collection",
+  "price": "$44.79",
+  "scale": null,
+  "year": 2021,
+  "image": "images/products/mattel-hammond-velociraptor-hfg56.WebP",
+  "description": "Detailed Velociraptor figure from Mattel's Jurassic Park Hammond Collection.",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/3kZWKB"
+    }
+  ]
+},
+{
+  "name": "NANMU Velociraptor White Queen and Blood Knight",
+  "species": "Velociraptor",
+  "brand": "NANMU",
+  "price": "$195.69",
+  "scale": null,
+  "year": null,
+  "image": "images/products/nanmu-velociraptor-white-queen-blood-knight.WebP",
+  "description": "Detailed NANMU Velociraptor collectible featuring the White Queen and Blood Knight.",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/ztwEkp"
+    }
+  ]
+},
+{
+  "name": "NANMU Velociraptor 2.5 Version",
+  "species": "Velociraptor",
+  "brand": "NANMU",
+  "price": "$204.24",
+  "scale": null,
+  "year": null,
+  "image": "images/products/nanmu-velociraptor-2-5.WebP",
+  "description": "Detailed Velociraptor 2.5 collectible figure from NANMU.",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/ztwEkp"
+    }
+  ]
+},
+{
+  "name": "Beasts of the Mesozoic 1:18 Velociraptor Blue",
+  "species": "Velociraptor",
+  "brand": "Beasts of the Mesozoic",
+  "price": "$130.00",
+  "scale": "1:18",
+  "year": null,
+  "image": "images/products/beasts-mesozoic-velociraptor-blue.WebP",
+  "description": "Detailed 1:18 scale Velociraptor Blue figure from Beasts of the Mesozoic.",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/TxypDu"
+    }
+  ]
+},
+{
+  "name": "DINO DREAM Jurassic Raptors Attack Bronze 1:15",
+  "species": "Velociraptor",
+  "brand": "DINO DREAM",
+  "price": "$389.50",
+  "scale": "1:15",
+  "year": null,
+  "image": "images/products/dino-dream-velociraptor-bronze.WebP",
+  "description": "Detailed 1:15 scale Velociraptor statue from DINO DREAM, made from PU resin.",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/WcmVnJ"
+    }
+  ]
+},
+{
+  "name": "Prime 1 Studio PCFJP-08 Velociraptor",
+  "species": "Velociraptor",
+  "brand": "Prime 1 Studio",
+  "price": "$261.89",
+  "scale": "1:10",
+  "year": null,
+  "image": "images/products/prime1-velociraptor-pcfjp08.WebP",
+  "description": "Highly detailed 1:10 scale Velociraptor resin statue from Prime 1 Studio.",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/aW6xPo"
+    }
+  ]
+},
+{
+  "name": "Prime 1 Studio 1:6 VelociRaptor LMCJW2-01EX Blue",
+  "species": "Velociraptor",
+  "brand": "Prime 1 Studio",
+  "price": "$1,890.00",
+  "scale": "1:6",
+  "year": 2026,
+  "image": "images/products/prime1-velociraptor-lmcjw2-01ex.WebP",
+  "description": "Premium 1:6 scale Blue VelociRaptor statue from Prime 1 Studio's Limited Model Collection.",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/KFvrL8"
+    }
+  ]
+},
+{
+  "name": "Prime1Studio P1S PCFJP-03 Brachiosaurus",
+  "species": "Brachiosaurus",
+  "brand": "Prime1Studio",
+  "price": "$359.99",
+  "scale": "1:38",
+  "year": null,
+  "image": "images/products/prime1-brachiosaurus-pcfjp03.WebP",
+  "description": "Detailed 1:38 scale Brachiosaurus model from Prime1Studio's Jurassic Park collection.",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/fFBPRT"
+    }
+  ]
+},
+{
+  "name": "Mattel Jurassic World Hammond Collection Brachiosaurus HNY77",
+  "species": "Brachiosaurus",
+  "brand": "Hammond Collection",
+  "price": "$434.99",
+  "scale": "1:18",
+  "year": 2023,
+  "image": "images/products/mattel-hammond-brachiosaurus-hny77.WebP",
+  "description": "Highly detailed 1:18 scale Brachiosaurus figure from Mattel's Jurassic World Hammond Collection.",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/eAR8PF"
+    }
+  ]
+},
+{
+  "name": "1:35 Brachiosaurus Long-neck Dinosaur Model",
+  "species": "Brachiosaurus",
+  "brand": "Unbranded",
+  "price": "$198.33",
+  "scale": "1:35",
+  "year": null,
+  "image": "images/products/brachiosaurus-135.WebP",
+  "description": "Detailed 1:35 scale Brachiosaurus model made from PVC and resin.",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/tWczJ6"
+    }
+  ]
+},
+{
+  "name": "W-Dragon 1:35 Brachiosaurus Coffee Color",
+  "species": "Brachiosaurus",
+  "brand": "W-Dragon",
+  "price": "$250.80",
+  "scale": "1:35",
+  "year": null,
+  "image": "images/products/w-dragon-brachiosaurus-coffee.WebP",
+  "description": "Detailed 1:35 scale Brachiosaurus model in coffee color by W-Dragon.",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/66NIU6"
+    }
+  ]
+},
+{
+  "name": "HAOLONGGOOD Brachiosaurus 1:35 Limited Collectible Model",
+  "species": "Brachiosaurus",
+  "brand": "HAOLONGGOOD",
+  "price": "$264.03",
+  "scale": "1:35",
+  "year": null,
+  "image": "images/products/haolonggood-brachiosaurus-135.WebP",
+  "description": "Detailed 1:35 scale Brachiosaurus collectible model made from PVC.",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/CL90q7"
+    }
+  ]
+},
+{
+  "name": "Ankylosaurus Dinosaur Statue",
+  "species": "Ankylosaurus",
+  "brand": "Unbranded",
+  "price": "$66.30",
+  "scale": null,
+  "year": null,
+  "image": "images/products/ankylosaurus-statue.WebP",
+  "description": "Detailed PVC Ankylosaurus collectible statue with a realistic sculpt and armored body.",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/5hdldI"
+    }
+  ]
+},
+{
+  "name": "Jurassic World Hammond Collection Ankylosaurus",
+  "species": "Ankylosaurus",
+  "brand": "Hammond Collection",
+  "price": "$279.44",
+  "scale": "1:18",
+  "year": null,
+  "image": "images/products/hammond-ankylosaurus-2.WebP",
+  "description": "Mattel Hammond Collection Ankylosaurus action figure in black with roaring pose, presented in its branded box.",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/C0MtCb"
+    }
+  ]
+}
+
+]

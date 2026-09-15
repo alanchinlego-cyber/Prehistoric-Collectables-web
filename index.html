@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>PREHISTORIC COLLECTABLES - Bring Prehistory Home</title>
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+
+</head>
+
+
+<body>
+
+  <!-- =========================
+       HEADER
+  ========================= -->
+
+  <header>
+
+    <div class="logo">
+
+      <img
+        src="images/logo.WebP"
+        class="logo-image"
+        alt="Prehistoric Collectables"
+      >
+
+      <span>
+        PREHISTORIC COLLECTABLES
+      </span>
+
+    </div>
+
+
+    <nav>
+
+      <a href="#explore" class="active">
+        Explore
+      </a>
+
+      <a href="#stores">
+        Stores
+      </a>
+
+      <a href="#about">
+        About
+      </a>
+
+    </nav>
+
+  </header>
+
+
+
+  <!-- =========================
+       HERO
+  ========================= -->
+
+  <section class="hero">
+
+    <div class="hero-content">
+
+      <p class="small-title">
+        THE PREHISTORIC WORLD
+      </p>
+
+
+      <h1>
+        Discover the creatures<br>
+        that ruled the <span>Earth.</span>
+      </h1>
+
+
+      <p class="hero-description">
+        Explore dinosaurs, fossils and prehistoric life.
+        Discover amazing creatures and find collectibles
+        from stores around the world.
+      </p>
+
+
+      <div class="hero-buttons">
+
+        <a
+          href="#explore"
+          class="explore-button"
+        >
+          Start Exploring ↓
+        </a>
+
+
+        <a
+          href="#stores"
+          class="secondary-button"
+        >
+          Explore Stores →
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <!-- DINOSAUR -->
+
+    <div class="hero-dinosaur">
+
+      <div class="dinosaur-glow"></div>
+
+      <img
+       
+      >
+
+    </div>
+
+  </section>
+
+
+
+  <!-- =========================
+       TRUST BAR
+  ========================= -->
+
+  <section class="trust-bar">
+
+    <div class="trust-item">
+
+      <div class="trust-icon">
+        ✓
+      </div>
+
+      <div>
+
+        <strong>
+          Trusted Stores
+        </strong>
+
+        <span>
+          eBay, AliExpress and more.
+        </span>
+
+      </div>
+
+    </div>
+
+
+    <div class="trust-item">
+
+      <div class="trust-icon">
+        $
+      </div>
+
+      <div>
+
+        <strong>
+          Best Deals
+        </strong>
+
+        <span>
+          Discover great prices from different stores.
+        </span>
+
+      </div>
+
+    </div>
+
+
+    <div class="trust-item">
+
+      <div class="trust-icon">
+        ◆
+      </div>
+
+      <div>
+
+        <strong>
+          Wide Selection
+        </strong>
+
+        <span>
+          Figures, fossils, toys and more.
+        </span>
+
+      </div>
+
+    </div>
+
+
+    <div class="trust-item">
+
+      <div class="trust-icon">
+        ◎
+      </div>
+
+      <div>
+
+        <strong>
+          Worldwide Stores
+        </strong>
+
+        <span>
+          Discover collectibles from around the world.
+        </span>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- =========================
+       EXPLORE
+  ========================= -->
+
+  <section
+    id="explore"
+    class="explore-section"
+  >
+
+
+    <div class="section-title">
+
+      <div>
+
+        <p class="small-title">
+          EXPLORE
+        </p>
+
+        <h2>
+          Prehistoric Catalog
+        </h2>
+
+      </div>
+
+
+      <p id="resultCount">
+        Loading...
+      </p>
+
+    </div>
+
+
+
+    <!-- CATALOG MODE -->
+
+    <div class="catalog-modes">
+
+      <button
+        id="dinosaursMode"
+        class="catalog-mode active"
+        type="button"
+      >
+        Dinosaurs
+      </button>
+
+
+      <button
+        id="collectiblesMode"
+        class="catalog-mode"
+        type="button"
+      >
+        Collectibles
+      </button>
+
+    </div>
+
+
+
+    <!-- SEARCH AND FILTERS -->
+
+    <div class="filters">
+
+      <div class="search-row">
+
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search dinosaurs, collectibles..."
+        >
+
+
+        <button
+          type="button"
+          id="filtersToggle"
+          class="filters-toggle"
+        >
+          Filters
+
+          <span>
+            ▼
+          </span>
+
+        </button>
+
+      </div>
+
+
+
+      <!-- FILTER PANEL -->
+
+      <div
+        id="filtersPanel"
+        class="filters-panel"
+      >
+
+
+        <!-- TYPE -->
+
+       <div
+  class="multi-filter"
+  id="typeFilterContainer"
+>
+
+          <button
+            class="filter-button"
+            id="typeButton"
+            type="button"
+          >
+            All Types
+
+            <span>
+              ▼
+            </span>
+
+          </button>
+
+
+          <div
+            class="filter-menu"
+            id="typeMenu"
+          >
+
+            <button
+              type="button"
+              class="filter-all"
+              data-filter="type"
+            >
+              All Types
+            </button>
+
+          </div>
+
+        </div>
+
+
+
+        <!-- PERIOD -->
+
+        <div
+  class="multi-filter"
+  id="periodFilterContainer"
+>
+
+          <button
+            class="filter-button"
+            id="periodButton"
+            type="button"
+          >
+            All Periods
+
+            <span>
+              ▼
+            </span>
+
+          </button>
+
+
+          <div
+            class="filter-menu"
+            id="periodMenu"
+          >
+
+            <button
+              type="button"
+              class="filter-all"
+              data-filter="period"
+            >
+              All Periods
+            </button>
+
+          </div>
+
+        </div>
+
+
+
+        <!-- BRANDS -->
+
+        <div
+          class="multi-filter"
+          id="brandFilterContainer"
+        >
+
+          <button
+            class="filter-button"
+            id="brandButton"
+            type="button"
+          >
+            All Brands
+
+            <span>
+              ▼
+            </span>
+
+          </button>
+
+
+          <div
+            class="filter-menu"
+            id="brandMenu"
+          >
+
+            <button
+              type="button"
+              class="filter-all"
+              data-filter="brand"
+            >
+              All Brands
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- CATALOG -->
+
+    <div
+      id="catalog"
+      class="catalog"
+    >
+
+    </div>
+
+
+  </section>
+
+
+
+  <!-- =========================
+       STORES
+  ========================= -->
+
+  <section
+    id="stores"
+    class="stores-section"
+  >
+
+    <div class="section-inner">
+
+      <p class="small-title">
+        SHOP
+      </p>
+
+
+      <h2>
+        Find Collectibles
+      </h2>
+
+
+      <p class="section-description">
+        Discover products and collectibles from different stores.
+      </p>
+
+<div class="store-list">
+
+
+  <a
+    href="https://www.aliexpress.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    AliExpress
+  </a>
+
+  <a
+    href="https://www.mercadolibre.com.mx/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Mercado Libre
+  </a>
+
+  <a
+    href="https://ebay.us/dmgfwy"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    eBay
+  </a>
+
+</div>
+
+  </section>
+
+
+
+  <!-- =========================
+       ABOUT
+  ========================= -->
+
+  <section
+    id="about"
+    class="about-section"
+  >
+
+    <p class="small-title">
+      ABOUT PREHISTORIC COLLECTABLES
+    </p>
+
+
+    <h2>
+      A growing prehistoric database.
+    </h2>
+
+
+    <p>
+      PREHISTORIC COLLECTABLES its a web page made by Brutosanches to make the search 
+      of new collecables and species easier for the collectors to find. I
+      will keep updating it and i will be adding more species of dinosaurs later on. 
+      (and other features to make it easier for you to find collectibles).
+
+      By pressing on the diferent dinosaurs and buying from their web you would be supporting me
+      and i'd get an small percent
+      of the cash from the afiliate link, just like
+      thoose fortnite creator codes, so 
+     if you happen to buy something i would very very thankfull.
+     
+    </p>
+
+  </section>
+
+
+
+  <!-- =========================
+       FOOTER
+  ========================= -->
+
+  <footer>
+
+    <p>
+      © 2026 PREHISTORIC COLLECTABLES
+    </p>
+
+
+    <p>
+      Affiliate links may earn PREHISTORIC COLLECTABLES a commission.
+    </p>
+
+  </footer>
+
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,2579 @@
+/* ==================================================
+   PREHISTORIC COLLECTABLES
+   MAIN STYLE
+   ================================================== */
+
+
+/* ==================================================
+   RESET
+   ================================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* ==================================================
+   BODY + PREHISTORIC BACKGROUND
+   ================================================== */
+
+body {
+  position: relative;
+  margin: 0;
+
+  background: #07100b;
+
+  color: #f2f3ed;
+
+  font-family:
+    Arial,
+    Helvetica,
+    sans-serif;
+}
+
+
+/* ==================================================
+   FOREST BACKGROUND
+   ================================================== */
+
+body::before {
+  content: "";
+
+  position: fixed;
+
+  inset: -15vh 0;
+
+  background-image:
+
+    linear-gradient(
+      to bottom,
+      rgba(4, 10, 7, 0.18) 0%,
+      rgba(4, 10, 7, 0.34) 35%,
+      rgba(4, 10, 7, 0.55) 65%,
+      rgba(4, 10, 7, 0.88) 100%
+    ),
+
+    url("images/prehistoric-background.png");
+
+  background-size:cover;
+
+  background-position:
+    center top;
+
+  background-repeat: no-repeat;
+
+  /*
+    JavaScript modifica esta variable
+    para crear el efecto parallax.
+  */
+
+  transform:
+    translate3d(
+      0,
+      var(--parallax-y, 0px),
+      0
+    );
+
+  will-change: transform;
+
+  z-index: -2;
+
+  pointer-events: none;
+}
+
+
+/* ==================================================
+   ATMOSPHERIC OVERLAY
+   ================================================== */
+
+body::after {
+  content: "";
+
+  position: fixed;
+
+  inset: 0;
+
+  background:
+    linear-gradient(
+      to bottom,
+      transparent 0%,
+      rgba(3, 8, 5, 0.03) 40%,
+      rgba(3, 8, 5, 0.34) 100%
+    );
+
+  z-index: -1;
+
+  pointer-events: none;
+}
+
+/* ==================================================
+   HEADER
+   ================================================== */
+
+header {
+  height: 80px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  padding:
+    0 5.8%;
+
+  background:
+    rgba(9, 12, 10, 0.92);
+
+  border-bottom:
+    1px solid rgba(75, 90, 80, 0.35);
+
+  backdrop-filter:
+    blur(18px);
+
+  position: sticky;
+
+  top: 0;
+
+  z-index: 100;
+}
+
+
+/* ==================================================
+   LOGO
+   ================================================== */
+
+.logo {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  font-size: 19px;
+
+  font-weight: 800;
+
+  letter-spacing: 2px;
+}
+
+
+.logo-image {
+  width: 48px;
+
+  height: 48px;
+
+  object-fit: contain;
+
+  display: block;
+}
+
+
+/* ==================================================
+   NAVIGATION
+   ================================================== */
+
+nav {
+  display: flex;
+
+  align-items: center;
+
+  gap: 38px;
+}
+
+
+nav a {
+  color: #aeb7ae;
+
+  text-decoration: none;
+
+  font-size: 14px;
+
+  font-weight: 500;
+
+  position: relative;
+
+  padding:
+    30px 0;
+
+  transition:
+    0.25s;
+}
+
+
+nav a:hover {
+  color: #f2f3ed;
+}
+
+
+nav a.active {
+  color: #b8d83e;
+}
+
+
+nav a.active::after {
+  content: "";
+
+  position: absolute;
+
+  bottom: 15px;
+
+  left: 0;
+
+  right: 0;
+
+  height: 2px;
+
+  background:
+    #b8d83e;
+}
+
+
+/* ==================================================
+   MAIN HERO
+   ================================================== */
+
+.hero {
+  min-height: 780px;
+
+  padding:
+    80px 5.8% 110px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 50px;
+
+  position: relative;
+
+  overflow: hidden;
+
+  /*
+    El fondo viene de body.
+    No ponemos otro background aquí.
+  */
+
+  background: transparent;
+}
+
+
+/* ==================================================
+   HERO ATMOSPHERE
+   ================================================== */
+
+.hero::before {
+  content: "";
+
+  position: absolute;
+
+  inset: 0;
+
+  background:
+    linear-gradient(
+      to bottom,
+      transparent 45%,
+      rgba(5, 10, 7, 0.20) 75%,
+      rgba(5, 10, 7, 0.48) 100%
+    );
+
+  pointer-events: none;
+
+  z-index: 1;
+}
+
+
+/* ==================================================
+   HERO CONTENT
+   ================================================== */
+
+.hero-content {
+  width: 43%;
+
+  max-width: 650px;
+
+  position: relative;
+
+  z-index: 5;
+}
+
+
+/* ==================================================
+   SMALL TITLE
+   ================================================== */
+
+.small-title {
+  color: #b8d83e;
+
+  font-size: 12px;
+
+  font-weight: 700;
+
+  letter-spacing: 2.5px;
+
+  margin:
+    0 0 18px;
+}
+
+
+/* ==================================================
+   HERO TITLE
+   ================================================== */
+
+.hero h1 {
+  font-size:
+    clamp(
+      50px,
+      5.2vw,
+      80px
+    );
+
+  line-height: 0.96;
+
+  letter-spacing:
+    -4px;
+
+  margin:
+    0 0 28px;
+
+  font-weight: 800;
+}
+
+
+.hero h1 span {
+  color: #b8d83e;
+}
+
+
+/* ==================================================
+   HERO DESCRIPTION
+   ================================================== */
+
+.hero-description {
+  color: #aeb7ae;
+
+  font-size: 17px;
+
+  line-height: 1.6;
+
+  max-width: 570px;
+
+  margin:
+    0 0 28px;
+}
+
+
+/* ==================================================
+   HERO BUTTONS
+   ================================================== */
+
+.hero-buttons {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+}
+
+
+.explore-button {
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  padding:
+    15px 22px;
+
+  background:
+    #b8d83e;
+
+  color:
+    #10130e;
+
+  font-weight:
+    800;
+
+  text-decoration:
+    none;
+
+  border-radius:
+    7px;
+
+  transition:
+    0.25s;
+}
+
+
+.explore-button:hover {
+  background:
+    #d0ef58;
+
+  transform:
+    translateY(-2px);
+
+  box-shadow:
+    0 8px 25px
+    rgba(184, 216, 62, 0.16);
+}
+
+
+.secondary-button {
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  padding:
+    14px 20px;
+
+  border:
+    1px solid #465047;
+
+  color:
+    #f2f3ed;
+
+  text-decoration:
+    none;
+
+  border-radius:
+    7px;
+
+  font-size:
+    14px;
+
+  font-weight:
+    600;
+
+  background:
+    rgba(20, 24, 22, 0.45);
+
+  backdrop-filter:
+    blur(8px);
+
+  transition:
+    0.25s;
+}
+
+
+.secondary-button:hover {
+  border-color:
+    #b8d83e;
+
+  color:
+    #b8d83e;
+}
+
+
+/* ==================================================
+   HERO DINOSAUR
+   ================================================== */
+
+.hero-dinosaur {
+  width: 53%;
+
+  max-width: 850px;
+
+  height: 500px;
+
+  position: relative;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  z-index: 2;
+}
+
+
+/* ==================================================
+   TRUST BAR
+   ================================================== */
+
+.trust-bar {
+  width: 88%;
+
+  margin:
+    -20px auto 0;
+
+  min-height:
+    110px;
+
+  display:
+    grid;
+
+  grid-template-columns:
+    repeat(4, 1fr);
+
+  background:
+    rgba(17, 22, 19, 0.95);
+
+  border:
+    1px solid #29312c;
+
+  border-radius:
+    15px;
+
+  position:
+    relative;
+
+  z-index:
+    10;
+
+  overflow:
+    hidden;
+}
+
+
+.trust-item {
+  display:
+    flex;
+
+  align-items:
+    center;
+
+  gap:
+    15px;
+
+  padding:
+    20px 25px;
+
+  border-right:
+    1px solid #29312c;
+}
+
+
+.trust-item:last-child {
+  border-right:
+    none;
+}
+
+
+.trust-icon {
+  width:
+    42px;
+
+  height:
+    42px;
+
+  flex-shrink:
+    0;
+
+  display:
+    flex;
+
+  align-items:
+    center;
+
+  justify-content:
+    center;
+
+  border:
+    1px solid
+    rgba(184, 216, 62, 0.35);
+
+  border-radius:
+    50%;
+
+  color:
+    #b8d83e;
+
+  font-size:
+    18px;
+
+  font-weight:
+    bold;
+}
+
+
+.trust-item strong {
+  display:
+    block;
+
+  margin-bottom:
+    5px;
+
+  font-size:
+    14px;
+}
+
+
+.trust-item span {
+  display:
+    block;
+
+  color:
+    #7f8981;
+
+  font-size:
+    11px;
+
+  line-height:
+    1.4;
+}
+
+
+/* ==================================================
+   GENERAL SECTIONS
+   ================================================== */
+
+.explore-section,
+.about-section {
+  padding:
+    100px 5.8%;
+
+  background:
+    transparent;
+}
+
+
+.section-title {
+  display:
+    flex;
+
+  justify-content:
+    space-between;
+
+  align-items:
+    flex-end;
+
+  margin-bottom:
+    30px;
+}
+
+
+.section-title h2 {
+  margin:
+    0;
+}
+
+
+#resultCount {
+  color:
+    #7f8981;
+
+  font-size:
+    14px;
+}
+
+
+/* ==================================================
+   HEADINGS
+   ================================================== */
+
+h2 {
+  font-size:
+    clamp(
+      32px,
+      4vw,
+      50px
+    );
+
+  letter-spacing:
+    -2px;
+
+  margin:
+    0 0 15px;
+}
+
+
+/* ==================================================
+   CATALOG MODES
+   ================================================== */
+
+.catalog-modes {
+  display:
+    flex;
+
+  gap:
+    8px;
+
+  margin-bottom:
+    20px;
+}
+
+
+.catalog-mode {
+  padding:
+    10px 16px;
+
+  border:
+    1px solid #29312c;
+
+  border-radius:
+    8px;
+
+  background:
+    #141816;
+
+  color:
+    #aeb7ae;
+
+  font-size:
+    13px;
+
+  font-weight:
+    bold;
+
+  cursor:
+    pointer;
+
+  transition:
+    0.2s;
+}
+
+
+.catalog-mode:hover {
+  color:
+    #f2f3ed;
+
+  border-color:
+    #4b5a50;
+}
+
+
+.catalog-mode.active {
+  background:
+    #b8d83e;
+
+  color:
+    #111;
+
+  border-color:
+    #b8d83e;
+}
+
+
+/* ==================================================
+   FILTERS
+   ================================================== */
+
+.filters {
+  margin-bottom:
+    35px;
+}
+
+
+/* SEARCH */
+
+.search-row {
+  display:
+    grid;
+
+  grid-template-columns:
+    1fr 140px;
+
+  gap:
+    12px;
+}
+
+
+.search-row input {
+  min-height:
+    48px;
+
+  padding:
+    0 16px;
+
+  border:
+    1px solid #29312c;
+
+  border-radius:
+    8px;
+
+  background:
+    #141816;
+
+  color:
+    #f2f3ed;
+
+  font-size:
+    14px;
+
+  outline:
+    none;
+
+  transition:
+    0.2s;
+}
+
+
+.search-row input::placeholder {
+  color:
+    #6f7971;
+}
+
+
+.search-row input:focus {
+  border-color:
+    #b8d83e;
+}
+
+
+/* FILTER TOGGLE */
+
+.filters-toggle {
+  min-height:
+    48px;
+
+  padding:
+    15px;
+
+  border-radius:
+    8px;
+
+  border:
+    1px solid #29312c;
+
+  background:
+    #141816;
+
+  color:
+    #f2f3ed;
+
+  font-size:
+    14px;
+
+  cursor:
+    pointer;
+
+  display:
+    flex;
+
+  align-items:
+    center;
+
+  justify-content:
+    space-between;
+
+  transition:
+    0.2s;
+}
+
+
+.filters-toggle:hover {
+  border-color:
+    #4b5a50;
+}
+
+
+/* FILTER PANEL */
+
+.filters-panel {
+  display:
+    none;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  gap:
+    12px;
+
+  margin-top:
+    12px;
+}
+
+
+.filters-panel.open {
+  display:
+    grid;
+}
+
+
+/* MULTI FILTER */
+
+.multi-filter {
+  position:
+    relative;
+}
+
+
+/* FILTER BUTTON */
+
+.filter-button {
+  width:
+    100%;
+
+  min-height:
+    48px;
+
+  padding:
+    15px;
+
+  border-radius:
+    8px;
+
+  border:
+    1px solid #29312c;
+
+  background:
+    #141816;
+
+  color:
+    #f2f3ed;
+
+  font-size:
+    14px;
+
+  text-align:
+    left;
+
+  cursor:
+    pointer;
+
+  display:
+    flex;
+
+  align-items:
+    center;
+
+  justify-content:
+    space-between;
+
+  transition:
+    0.2s;
+}
+
+
+.filter-button:hover {
+  border-color:
+    #4b5a50;
+}
+
+
+.multi-filter.open .filter-button {
+  border-color:
+    #b8d83e;
+}
+
+
+/* FILTER MENU */
+
+.filter-menu {
+  display:
+    none;
+
+  position:
+    absolute;
+
+  top:
+    calc(100% + 8px);
+
+  left:
+    0;
+
+  width:
+    100%;
+
+  min-width:
+    220px;
+
+  max-height:
+    300px;
+
+  overflow-y:
+    auto;
+
+  padding:
+    8px;
+
+  background:
+    #141816;
+
+  border:
+    1px solid #29312c;
+
+  border-radius:
+    10px;
+
+  box-shadow:
+    0 15px 35px
+    rgba(0, 0, 0, 0.4);
+
+  z-index:
+    200;
+}
+
+
+.multi-filter.open .filter-menu {
+  display:
+    block;
+}
+
+
+/* FILTER OPTIONS */
+
+.filter-option {
+  display:
+    flex;
+
+  align-items:
+    center;
+
+  gap:
+    10px;
+
+  padding:
+    10px;
+
+  border-radius:
+    7px;
+
+  cursor:
+    pointer;
+
+  color:
+    #c9d0ca;
+
+  font-size:
+    13px;
+
+  transition:
+    0.2s;
+}
+
+
+.filter-option:hover {
+  background:
+    #1b211e;
+
+  color:
+    #f2f3ed;
+}
+
+
+.filter-option input {
+  width:
+    16px;
+
+  height:
+    16px;
+
+  accent-color:
+    #b8d83e;
+
+  cursor:
+    pointer;
+}
+
+
+/* ALL BUTTON */
+
+.filter-all {
+  width:
+    100%;
+
+  padding:
+    10px;
+
+  margin-bottom:
+    4px;
+
+  border:
+    none;
+
+  border-radius:
+    7px;
+
+  background:
+    transparent;
+
+  color:
+    #b8d83e;
+
+  text-align:
+    left;
+
+  font-size:
+    13px;
+
+  font-weight:
+    bold;
+
+  cursor:
+    pointer;
+}
+
+
+.filter-all:hover {
+  background:
+    #1b211e;
+}
+
+
+/* ==================================================
+   DINOSAUR CATALOG
+   ================================================== */
+
+.catalog {
+  display:
+    grid;
+
+  grid-template-columns:
+    repeat(
+      auto-fill,
+      minmax(
+        250px,
+        1fr
+      )
+    );
+
+  gap:
+    20px;
+}
+
+
+/* ==================================================
+   DINOSAUR CARDS
+   ================================================== */
+
+.card {
+  background:
+    #141816;
+
+  border:
+    1px solid #29312c;
+
+  border-radius:
+    15px;
+
+  overflow:
+    hidden;
+
+  transition:
+    0.25s;
+}
+
+
+.card:hover {
+  transform:
+    translateY(-5px);
+
+  border-color:
+    #4b5a50;
+
+  box-shadow:
+    0 15px 40px
+    rgba(0, 0, 0, 0.25);
+}
+
+
+/* IMAGE */
+
+.card-image {
+  height:
+    190px;
+
+  display:
+    flex;
+
+  align-items:
+    center;
+
+  justify-content:
+    center;
+
+  overflow:
+    hidden;
+
+  background:
+    linear-gradient(
+      145deg,
+      #252d28,
+      #111512
+    );
+}
+
+
+.card-image img {
+  width:
+    100%;
+
+  height:
+    100%;
+
+  object-fit:
+    cover;
+}
+
+
+.card-placeholder {
+  font-size:
+    75px;
+}
+
+
+/* CARD BODY */
+
+.card-body {
+  padding:
+    20px;
+}
+
+
+.card-meta {
+  color:
+    #b8d83e;
+
+  font-size:
+    11px;
+
+  font-weight:
+    bold;
+
+  letter-spacing:
+    1px;
+
+  text-transform:
+    uppercase;
+}
+
+
+.card h3 {
+  font-size:
+    23px;
+
+  margin:
+    8px 0;
+}
+
+
+.card p {
+  color:
+    #aeb7ae;
+
+  font-size:
+    14px;
+
+  line-height:
+    1.5;
+}
+
+
+/* ==================================================
+   TAGS
+   ================================================== */
+
+.tags {
+  display:
+    flex;
+
+  flex-wrap:
+    wrap;
+
+  gap:
+    6px;
+
+  margin:
+    15px 0;
+}
+
+
+.tag {
+  background:
+    #1b211e;
+
+  color:
+    #c9d0ca;
+
+  padding:
+    5px 8px;
+
+  border-radius:
+    20px;
+
+  font-size:
+    11px;
+}
+
+
+/* ==================================================
+   PRODUCT BUTTONS
+   ================================================== */
+
+.product-buttons {
+  display:
+    flex;
+
+  flex-wrap:
+    wrap;
+
+  gap:
+    7px;
+}
+
+
+.product-buttons a {
+  border:
+    1px solid #29312c;
+
+  padding:
+    8px 10px;
+
+  border-radius:
+    7px;
+
+  color:
+    #f2f3ed;
+
+  text-decoration:
+    none;
+
+  font-size:
+    12px;
+
+  font-weight:
+    bold;
+
+  transition:
+    0.2s;
+}
+
+
+.product-buttons a:hover {
+  color:
+    #b8d83e;
+
+  border-color:
+    #b8d83e;
+}
+
+
+/* ==================================================
+   COLLECTIBLES
+   ================================================== */
+
+.collectible-card {
+  position:
+    relative;
+}
+
+
+.collectible-card .card-meta {
+  margin-bottom:
+    6px;
+}
+
+
+.collectible-species {
+  color:
+    #b8d83e !important;
+
+  font-size:
+    12px !important;
+
+  font-weight:
+    bold;
+
+  margin:
+    0 0 12px;
+}
+
+
+.product-details {
+  display:
+    flex;
+
+  flex-wrap:
+    wrap;
+
+  gap:
+    6px;
+
+  margin:
+    12px 0 15px;
+}
+
+
+.product-detail {
+  padding:
+    5px 8px;
+
+  border:
+    1px solid #29312c;
+
+  border-radius:
+    6px;
+
+  background:
+    #1b211e;
+
+  color:
+    #c9d0ca;
+
+  font-size:
+    11px;
+}
+
+
+.product-detail:first-child {
+  color:
+    #f2f3ed;
+
+  font-weight:
+    bold;
+}
+
+
+/* ==================================================
+   DINOSAUR DETAIL PAGE
+   COMPACT SPECIES HERO
+   ================================================== */
+
+.detail-container {
+  width:
+    88%;
+
+  max-width:
+    1250px;
+
+  margin:
+    0 auto;
+
+  padding:
+    45px 0 100px;
+}
+
+
+/* BACK BUTTON */
+
+.back-button {
+  display:
+    inline-flex;
+
+  align-items:
+    center;
+
+  margin-bottom:
+    25px;
+
+  color:
+    #7f8981;
+
+  text-decoration:
+    none;
+
+  font-size:
+    13px;
+
+  font-weight:
+    600;
+
+  transition:
+    0.2s;
+}
+
+
+.back-button:hover {
+  color:
+    #b8d83e;
+
+  transform:
+    translateX(-3px);
+}
+
+
+/* ==================================================
+   SPECIES HERO
+   ================================================== */
+
+.species-hero {
+  min-height:
+    410px;
+
+  display:
+    grid;
+
+  grid-template-columns:
+    44% 56%;
+
+  position:
+    relative;
+
+  overflow:
+    hidden;
+
+  border-top:
+    1px solid #29312c;
+
+  border-bottom:
+    1px solid #29312c;
+
+  background:
+
+    radial-gradient(
+      circle at 78% 48%,
+      rgba(74, 101, 47, 0.24),
+      transparent 38%
+    ),
+
+    linear-gradient(
+      135deg,
+      #0b0f0c,
+      #101510
+    );
+}
+
+
+/* ==================================================
+   SPECIES HERO INFORMATION
+   ================================================== */
+
+.species-hero-info {
+  display:
+    flex;
+
+  flex-direction:
+    column;
+
+  justify-content:
+    center;
+
+  padding:
+    55px 20px 55px 45px;
+
+  position:
+    relative;
+
+  z-index:
+    5;
+}
+
+
+.species-hero-info .small-title {
+  margin-bottom:
+    14px;
+}
+
+
+.species-hero-info h1 {
+  margin:
+    0;
+
+  font-size:
+    clamp(
+      54px,
+      7vw,
+      92px
+    );
+
+  line-height:
+    0.9;
+
+  letter-spacing:
+    -5px;
+
+  font-weight:
+    800;
+
+  text-transform:
+    uppercase;
+}
+
+
+.species-line {
+  width:
+    65px;
+
+  height:
+    2px;
+
+  margin:
+    24px 0 20px;
+
+  background:
+    #b8d83e;
+}
+
+
+.species-hero-description {
+  max-width:
+    500px;
+
+  margin:
+    0 0 22px;
+
+  color:
+    #aeb7ae;
+
+  font-size:
+    15px;
+
+  line-height:
+    1.6;
+}
+
+
+/* ==================================================
+   SPECIES TAGS
+   ================================================== */
+
+.detail-tags {
+  display:
+    flex;
+
+  flex-wrap:
+    wrap;
+
+  gap:
+    7px;
+}
+
+
+.detail-tags .tag {
+  border:
+    1px solid #354039;
+
+  background:
+    rgba(27, 33, 30, 0.75);
+}
+
+
+/* ==================================================
+   SPECIES HERO IMAGE
+   ================================================== */
+
+.species-hero-image {
+  min-height:
+    410px;
+
+  position:
+    relative;
+
+  display:
+    flex;
+
+  align-items:
+    center;
+
+  justify-content:
+    center;
+
+  overflow:
+    hidden;
+}
+
+
+/* GREEN ATMOSPHERIC GLOW */
+
+.species-image-glow {
+  position:
+    absolute;
+
+  width:
+    75%;
+
+  height:
+    75%;
+
+  left:
+    12%;
+
+  top:
+    12%;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(132, 159, 72, 0.30),
+      transparent 65%
+    );
+
+  filter:
+    blur(45px);
+
+  pointer-events:
+    none;
+}
+
+
+/* DINOSAUR PNG */
+
+.species-hero-image img {
+  position:
+    relative;
+
+  z-index:
+    2;
+
+  width:
+    100%;
+
+  height:
+    100%;
+
+  max-height:
+    390px;
+
+  object-fit:
+    contain;
+
+  object-position:
+    center;
+
+  filter:
+    drop-shadow(
+      0 25px 35px
+      rgba(0, 0, 0, 0.45)
+    );
+}
+
+
+/* FADE */
+
+.species-hero-image::after {
+  content:
+    "";
+
+  position:
+    absolute;
+
+  inset:
+    0;
+
+  z-index:
+    3;
+
+  pointer-events:
+    none;
+
+  background:
+
+    linear-gradient(
+      90deg,
+      #0b0f0c 0%,
+      transparent 18%
+    ),
+
+    linear-gradient(
+      0deg,
+      #0b0f0c 0%,
+      transparent 20%
+    );
+}
+
+
+/* ==================================================
+   PRODUCTS SECTION
+   ================================================== */
+
+.products-section {
+  padding-top:
+    75px;
+}
+
+
+.products-heading {
+  display:
+    flex;
+
+  align-items:
+    flex-end;
+
+  justify-content:
+    space-between;
+
+  margin-bottom:
+    32px;
+}
+
+
+.products-heading h2 {
+  margin:
+    0;
+
+  text-transform:
+    none;
+}
+
+
+.products-heading .small-title {
+  margin-bottom:
+    10px;
+}
+
+
+/* ==================================================
+   NOT FOUND
+   ================================================== */
+
+.not-found {
+  width:
+    88%;
+
+  max-width:
+    700px;
+
+  margin:
+    100px auto;
+
+  text-align:
+    center;
+}
+
+
+.not-found h1 {
+  font-size:
+    50px;
+
+  margin-bottom:
+    15px;
+}
+
+
+.not-found p {
+  color:
+    #aeb7ae;
+
+  margin-bottom:
+    30px;
+}
+
+
+/* ==================================================
+   DETAIL PLACEHOLDER
+   ================================================== */
+
+.detail-placeholder {
+  font-size:
+    100px;
+
+  opacity:
+    0.5;
+}
+
+
+/* ==================================================
+   DETAIL COLLECTIBLES
+   ================================================== */
+
+.detail-collectibles {
+  display:
+    flex;
+
+  flex-direction:
+    column;
+
+  gap:
+    20px;
+}
+
+
+.detail-collectible {
+  display:
+    grid;
+
+  grid-template-columns:
+    240px 1fr;
+
+  min-height:
+    240px;
+
+  background:
+    #141816;
+
+  border:
+    1px solid #29312c;
+
+  border-radius:
+    15px;
+
+  overflow:
+    hidden;
+
+  transition:
+    0.25s;
+}
+
+
+.detail-collectible:hover {
+  border-color:
+    #4b5a50;
+
+  transform:
+    translateY(-2px);
+}
+
+
+.detail-collectible-image {
+  min-height:
+    240px;
+
+  display:
+    flex;
+
+  align-items:
+    center;
+
+  justify-content:
+    center;
+
+  overflow:
+    hidden;
+
+  background:
+    linear-gradient(
+      145deg,
+      #252d28,
+      #111512
+    );
+}
+
+
+.detail-collectible-image img {
+  width:
+    100%;
+
+  height:
+    100%;
+
+  object-fit:
+    cover;
+}
+
+
+.detail-collectible-info {
+  padding:
+    28px;
+}
+
+
+.detail-collectible-info h3 {
+  margin:
+    0 0 12px;
+
+  font-size:
+    27px;
+}
+
+
+/* ==================================================
+   STORE BUTTONS
+   ================================================== */
+
+.store-buttons {
+  display:
+    flex;
+
+  flex-wrap:
+    wrap;
+
+  gap:
+    8px;
+
+  margin-top:
+    15px;
+}
+
+
+.store-button {
+  display:
+    inline-block;
+
+  padding:
+    10px 14px;
+
+  border:
+    1px solid #29312c;
+
+  border-radius:
+    7px;
+
+  color:
+    #f2f3ed;
+
+  text-decoration:
+    none;
+
+  font-size:
+    12px;
+
+  font-weight:
+    bold;
+
+  transition:
+    0.2s;
+}
+
+
+.store-button:hover {
+  color:
+    #b8d83e;
+
+  border-color:
+    #b8d83e;
+}
+
+
+/* ==================================================
+   NO COLLECTIBLES
+   ================================================== */
+
+.no-collectibles {
+  padding:
+    30px;
+
+  background:
+    #141816;
+
+  border:
+    1px solid #29312c;
+
+  border-radius:
+    15px;
+}
+
+
+/* ==================================================
+   STORES
+   ================================================== */
+
+.stores-section {
+  background:
+    linear-gradient(
+      180deg,
+      #0b0f0c,
+      #111612
+    );
+
+  border-top:
+    1px solid #171d19;
+
+  border-bottom:
+    1px solid #171d19;
+}
+
+
+.section-inner {
+  max-width:
+    1100px;
+}
+
+
+.section-description {
+  color:
+    #aeb7ae;
+
+  font-size:
+    17px;
+
+  line-height:
+    1.6;
+}
+
+
+.store-list {
+  display:
+    flex;
+
+  flex-wrap:
+    wrap;
+
+  gap:
+    12px;
+
+  margin-top:
+    30px;
+}
+
+
+.store-list a {
+  padding:
+    15px 22px;
+
+  border:
+    1px solid #29312c;
+
+  border-radius:
+    8px;
+
+  background:
+    #141816;
+
+  font-weight:
+    bold;
+
+  transition:
+    0.2s;
+}
+
+
+.store-list div:hover {
+  border-color:
+    #b8d83e;
+
+  color:
+    #b8d83e;
+
+  transform:
+    translateY(-2px);
+}
+
+
+/* ==================================================
+   ABOUT
+   ================================================== */
+
+.about-section {
+  max-width:
+    1000px;
+}
+
+
+.about-section p:last-child {
+  color:
+    #aeb7ae;
+
+  font-size:
+    18px;
+
+  line-height:
+    1.7;
+
+  max-width:
+    750px;
+}
+
+
+/* ==================================================
+   FOOTER
+   ================================================== */
+
+footer {
+  border-top:
+    1px solid #29312c;
+
+  padding:
+    25px 5.8%;
+
+  display:
+    flex;
+
+  justify-content:
+    space-between;
+
+  gap:
+    20px;
+
+  color:
+    #7f8981;
+
+  font-size:
+    12px;
+}
+
+
+/* ==================================================
+   BRAND FILTER
+   ================================================== */
+
+#brandFilterContainer {
+  display:
+    none;
+}
+
+
+/* ==================================================
+   TABLET
+   ================================================== */
+
+@media (max-width: 900px) {
+
+  /* SPECIES DETAIL */
+
+  .species-hero {
+    grid-template-columns:
+      1fr 1fr;
+  }
+
+
+  .species-hero-info {
+    padding:
+      40px 15px 40px 30px;
+  }
+
+
+  .species-hero-info h1 {
+    font-size:
+      clamp(
+        48px,
+        7vw,
+        70px
+      );
+  }
+
+
+  /* MAIN HERO */
+
+  .hero {
+    min-height:
+      720px;
+
+    padding:
+      60px 6%;
+
+    gap:
+      25px;
+  }
+
+
+  .hero-content {
+    width:
+      48%;
+  }
+
+
+  .hero-dinosaur {
+    width:
+      52%;
+
+    height:
+      430px;
+  }
+
+
+  /* TRUST BAR */
+
+  .trust-bar {
+    grid-template-columns:
+      repeat(2, 1fr);
+  }
+
+
+  .trust-item:nth-child(2) {
+    border-right:
+      none;
+  }
+
+
+  .trust-item:nth-child(3),
+  .trust-item:nth-child(4) {
+    border-top:
+      1px solid #29312c;
+  }
+}
+
+
+/* ==================================================
+   MOBILE
+   ================================================== */
+
+@media (max-width: 700px) {
+
+  /* ==================================================
+     DETAIL PAGE
+     ================================================== */
+
+  .detail-container {
+    width:
+      86%;
+
+    padding-top:
+      30px;
+  }
+
+
+  .species-hero {
+    min-height:
+      600px;
+
+    display:
+      flex;
+
+    flex-direction:
+      column;
+  }
+
+
+  .species-hero-info {
+    padding:
+      40px 25px 10px;
+
+    z-index:
+      5;
+  }
+
+
+  .species-hero-info h1 {
+    font-size:
+      clamp(
+        48px,
+        14vw,
+        70px
+      );
+
+    letter-spacing:
+      -3px;
+  }
+
+
+  .species-hero-description {
+    font-size:
+      14px;
+  }
+
+
+  .species-hero-image {
+    min-height:
+      330px;
+
+    margin-top:
+      -20px;
+  }
+
+
+  .species-hero-image img {
+    max-height:
+      330px;
+  }
+
+
+  .species-hero-image::after {
+    background:
+
+      linear-gradient(
+        0deg,
+        #0b0f0c 0%,
+        transparent 30%
+      ),
+
+      linear-gradient(
+        90deg,
+        #0b0f0c 0%,
+        transparent 20%
+      );
+  }
+
+
+  .products-section {
+    padding-top:
+      55px;
+  }
+
+
+  /* ==================================================
+     HEADER
+     ================================================== */
+
+  header {
+    height:
+      70px;
+
+    padding:
+      0 6%;
+  }
+
+
+  .logo {
+    font-size:
+      14px;
+
+    letter-spacing:
+      1px;
+  }
+
+
+  .logo-image {
+    width:
+      42px;
+
+    height:
+      42px;
+  }
+
+
+  nav {
+    display:
+      none;
+  }
+
+
+  /* ==================================================
+     MAIN HERO
+     ================================================== */
+
+  .hero {
+    min-height:
+      720px;
+
+    padding:
+      55px 7%;
+
+    display:
+      block;
+
+    position:
+      relative;
+  }
+
+
+  .hero-content {
+    width:
+      100%;
+
+    max-width:
+      none;
+
+    position:
+      relative;
+
+    z-index:
+      5;
+  }
+
+
+  .hero h1 {
+    font-size:
+      clamp(
+        43px,
+        12vw,
+        65px
+      );
+
+    letter-spacing:
+      -2.5px;
+  }
+
+
+  .hero-description {
+    font-size:
+      15px;
+  }
+
+
+  .hero-buttons {
+    flex-wrap:
+      wrap;
+  }
+
+
+  .hero-dinosaur {
+    position:
+      absolute;
+
+    width:
+      115%;
+
+    height:
+      430px;
+
+    right:
+      -25%;
+
+    top:
+      270px;
+
+    opacity:
+      0.28;
+  }
+
+
+  /* ==================================================
+     TRUST BAR
+     ================================================== */
+
+  .trust-bar {
+    width:
+      88%;
+
+    margin-top:
+      -15px;
+
+    grid-template-columns:
+      1fr;
+  }
+
+
+  .trust-item {
+    border-right:
+      none;
+
+    border-bottom:
+      1px solid #29312c;
+  }
+
+
+  .trust-item:last-child {
+    border-bottom:
+      none;
+  }
+
+
+  /* ==================================================
+     SECTIONS
+     ================================================== */
+
+  .explore-section,
+  .about-section {
+    padding:
+      100px 5.8%;
+
+    background:
+      transparent;
+  }
+
+
+  /* SEARCH */
+
+  .search-row {
+    grid-template-columns:
+      1fr;
+  }
+
+
+  .filters-panel {
+    grid-template-columns:
+      1fr;
+  }
+
+
+  /* TITLE */
+
+  .section-title {
+    flex-direction:
+      column;
+
+    align-items:
+      flex-start;
+
+    gap:
+      10px;
+  }
+
+
+  /* ==================================================
+     DETAIL COLLECTIBLES
+     ================================================== */
+
+  .detail-collectible {
+    grid-template-columns:
+      1fr;
+  }
+
+
+  .detail-collectible-image {
+    min-height:
+      200px;
+  }
+
+
+  /* ==================================================
+     FOOTER
+     ================================================== */
+
+  footer {
+    flex-direction:
+      column;
+  }
+}
+

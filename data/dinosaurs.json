@@ -1,0 +1,75 @@
+[
+  {
+    "name": "Tyrannosaurus rex",
+    "period": "Late Cretaceous",
+    "type": "Dinosaur",
+    "location": "North America",
+    "image": "images/tyrannosaurus.webp",
+    "description": "One of the most famous and powerful predators to ever walk the Earth.",
+    "products": [
+    ]
+  },
+
+  {
+    "name": "Spinosaurus",
+    "period": "Late Cretaceous",
+    "type": "Dinosaur",
+    "location": "North Africa",
+    "image": "images/spinosaurus.webp",
+    "description": "A giant prehistoric predator known for its distinctive sail and possible semi-aquatic lifestyle."
+  },
+
+  {
+    "name": "Triceratops",
+    "period": "Late Cretaceous",
+    "type": "Dinosaur",
+    "location": "North America",
+    "image": "images/triceraptops.webp",
+    "description": "A large herbivorous dinosaur recognized by its three horns and massive skull frill.",
+    "products": []
+  },
+
+  {
+    "name": "Stegosaurus",
+    "period": "Late Jurassic",
+    "type": "Dinosaur",
+    "location": "North America",
+    "image": "images/stegosaurus.webp",
+    "description": "A famous herbivorous dinosaur with large plates along its back and spikes on its tail.",
+    "products": []
+  },
+
+  {
+    "name": "Velociraptor",
+    "period": "Late Cretaceous",
+    "type": "Dinosaur",
+    "location": "Central Asia",
+    "image": "images/velociraptor.webp",
+    "description": "A small but agile predatory dinosaur related to other feathered dromaeosaurs.",
+    "products": []
+  },
+
+  {
+    "name": "Brachiosaurus",
+    "period": "Late Jurassic",
+    "type": "Dinosaur",
+    "location": "North America",
+    "image": "Images/brachiosaurus.webp",
+    "description": "A gigantic long-necked dinosaur that used its height to reach vegetation.",
+    "products": []
+  },
+
+  { 
+    "name": "Ankylosaurus",
+    "period": "Cretaceous",
+    "type": "Dinosaur",
+    "location": "Central Asia",
+    "image": "Images/velociraptor.webp",
+    "description": "A very black dinosaur",
+    "products": [
+
+]
+    
+  }
+
+]
