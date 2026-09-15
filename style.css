@@ -2576,4 +2576,15 @@ footer {
       column;
   }
 }
+}
+.store-list a,
+.store-list a:link,
+.store-list a:visited {
+  color: #b8d83e !important;
+}
+
+.store-list a:hover {
+  color: #f2f3ed !important;
+}
+
 
