@@ -70,6 +70,18 @@
 
 ]
     
+  },
+      { 
+    "name": "Mosasaurus",
+    "period": "Cretaceous",
+    "type": "Dinosaur",
+    "location": "Central Asia",
+    "image": "Images/mosasaurus.webp",
+    "description": "The swiming titan",
+    "products": [
+
+]
+    
   }
 
 ]
