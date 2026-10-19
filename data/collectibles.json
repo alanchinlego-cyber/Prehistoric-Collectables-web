@@ -918,6 +918,87 @@
       "url": "https://ebay.us/C0MtCb"
     }
   ]
+},
+  {
+  "name": "Jurassic World Mosasaurus 2018 (real feel)",
+  "species": "Mosasaurus",
+  "brand": "Mattel",
+  "price": "$59.99",
+  "scale": null,
+  "year": "2010-2018",
+  "image": "images/products/mosasaurus-1.WebP",
+  "description": "Mattel jurassic world real feel mosasaurus 2018 brand new (Not opened never)",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/ApgJZs"
+    }
+  ]
+},
+{
+  "name": "Jurassic World Rebirth Mosasaurus bite and blast",
+  "species": "Mosasaurus",
+  "brand": null,
+  "price": "$34.00",
+  "scale": "46.36cm",
+  "year": "2010-2018",
+  "image": "images/products/mosasaurus-2.WebP",
+  "description": "Brand new unused jurassic world rebirth mosasaurus",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/rxbYEs"
+    }
+  ]
+},
+{
+  "name": "Mosasaurus Encounter Remote control 2026",
+  "species": "Mosasaurus",
+  "brand": null,
+  "price": "$39.99",
+  "scale": null,
+  "year": "2026",
+  "image": "images/products/mosasaurus-3.WebP",
+  "description": "Mosasaurus with remote control that can spit water and move",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/2Llajg"
+    }
+  ]
+},
+{
+  "name": "PNSO MOSASAURUS",
+  "species": "Mosasaurus",
+  "brand": "PNSO",
+  "price": "$102.56",
+  "scale": null,
+  "year": null,
+  "image": "images/products/mosasaurus-4.WebP",
+  "description": "PNSO accurate mosasaurus with base",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/t3NZZi"
+    }
+  ]
+},
+{
+  "name": "MOSASAURUS TOOTH",
+  "species": "Mosasaurus",
+  "brand": null,
+  "price": "$35.84",
+  "scale": null,
+  "year": "3 000 000 YEARS Old",
+  "image": "images/products/mosasaurus-5.WebP",
+  "description": "REAL MOSSASAURUS TOOTH FROM MOROCCO!!",
+  "stores": [
+    {
+      "store": "eBay",
+      "url": "https://ebay.us/WoSTc4"
+    }
+  ]
 }
+
 
 ]
